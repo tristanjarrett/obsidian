@@ -10,5 +10,5 @@
 
     <header class="my-header">
       <a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo('name'); ?></a>
-      <?php wp_list_pages( '&title_li=' ); ?>    
+      <?php wp_list_pages( '&title_li=' ); ?>
     </header>
