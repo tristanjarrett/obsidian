@@ -1,5 +1,5 @@
     <footer class="my-footer">
-      <p>Made with lots of coffee by <a href="#"><?php echo get_bloginfo('name'); ?></a></p>
+      <p>&copy; <?php echo date('Y'); ?> <?php echo get_bloginfo('name'); ?></p>
     </footer>
 
     <?php wp_footer(); ?>
