@@ -1,5 +1,7 @@
     <footer class="my-footer">
-      <p>&copy; <?php echo date('Y') . " " . get_bloginfo('name'); ?></p>
+      <div class="container">
+        <p>&copy; <?php echo date('Y') . " " . get_bloginfo('name'); ?></p>
+      </div>
     </footer>
 
     <?php wp_footer(); ?>

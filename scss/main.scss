@@ -1,9 +1,10 @@
-// Import core functions
+// import core functions
 @import "core/variables";
 
-// Import global sections
+// import global sections
+@import "global/base";
 @import "global/header";
 @import "global/footer";
 
-// Import pages
+// import pages
 @import "pages/index";

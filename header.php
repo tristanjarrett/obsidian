@@ -9,6 +9,8 @@
   <body>
 
     <header class="my-header">
-      <a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo('name'); ?></a>
-      <?php wp_list_pages( '&title_li=' ); ?>
+      <div class="container">
+        <a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo('name'); ?></a>
+        <?php wp_list_pages( '&title_li=' ); ?>
+      </div>
     </header>
