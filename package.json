@@ -1,0 +1,19 @@
+{
+  "name": "obsidian",
+  "version": "1.0.0",
+  "description": "Barebones WordPress starter theme for new projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tristanjarrett/obsidian.git"
+  },
+  "author": "Tristan Jarrett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tristanjarrett/obsidian/issues"
+  },
+  "homepage": "https://github.com/tristanjarrett/obsidian#readme"
+}
