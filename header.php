@@ -9,8 +9,31 @@
   <body>
 
     <header class="my-header">
+
       <div class="container">
-        <a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo('name'); ?></a>
-        <?php wp_list_pages( '&title_li=' ); ?>
+
+        <div class="d-flex align-items-center justify-content-between navbar-expand-md navbar-light">
+
+          <div>
+            <a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo('name'); ?></a>
+          </div>
+
+          <div>
+            <span class="d-none d-md-block">
+              <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+            </span>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="collapse navbar-collapse d-md-none" id="navbarNav">
+          <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+        </div>
+
       </div>
+
     </header>
