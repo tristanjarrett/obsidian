@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?php echo get_bloginfo('name') . " | " . get_bloginfo('description'); ?></title>
     <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/main.css">
     <?php wp_head();?>
