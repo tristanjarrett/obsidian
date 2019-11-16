@@ -20,7 +20,7 @@ function theme_title() {
   endif;
   // for other pages
   if (!( is_home() ) && ! is_404() ):
-    echo the_title() . ' | ' . $site_name;
+    the_title(); echo ' | ' . $site_name;
   endif;
 }
 
